@@ -1,23 +1,17 @@
 # Minamo
 
-Minamo (水面, "water's surface") is a free anime app by **Aoki Yoshi**. Discover what is trending, follow a monthly airing schedule, search with 134 tags, and track everything you watch.
+Minamo is a free anime discovery and tracking app by Aoki Yoshi. Discover trending shows, check airing schedules, search with 134 tags, and track your watch progress.
 
-- Discover: trending, popular, new and coming soon
-- Schedule: what airs each day of the month
-- Search: 134 tags and plenty of filters
-- Bookmarks and episode tracking
-- Themes, accent colours, fonts and corner styles
-- Your lists and settings stay on your own device
+## Features
 
-Anime data comes from [AniList](https://anilist.co). Minamo is not affiliated with AniList.
+- Discover: trending, popular, new, and upcoming anime
+- Schedule: daily calendar of airing episodes
+- Search: 134 tags and detailed filters
+- Tracking: bookmarks and episode progress
+- Customization: themes, accent colors, fonts, and corner styles
+- Privacy: all watchlists and settings stay on your device
 
-## Use it
+## Credits
 
-- **Web:** open the GitHub Pages site for this repository.
-- **Android:** download the `.apk` from the [Releases](../../releases) page.
-
-## Project
-
-The whole app is a single file, `index.html`, with no build step.
-
-Created by Aoki Yoshi.
+- Created by Aoki Yoshi
+- Data provided by [AniList](https://anilist.co) (not affiliated)
