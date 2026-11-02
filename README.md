@@ -35,7 +35,3 @@ There are no accounts and no ads. Your bookmarks, notes and settings are stored 
 - Built with help from Claude by Anthropic
 
 Minamo is not affiliated with AniList or MyAnimeList. It does not host or stream any anime. It only links to the official platforms where each show is available.
-
-## About the name
-
-*Minamo* (水面) is Japanese for "the surface of the water".
