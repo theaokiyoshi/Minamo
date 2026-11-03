@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Minamo" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Automatically adapts to system light and dark mode on API 29+ -->
+    </style>
+</resources>
