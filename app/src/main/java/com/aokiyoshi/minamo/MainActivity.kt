@@ -95,10 +95,17 @@ class MainActivity : ComponentActivity() {
 
         setContentView(webView)
 
-        // Back button: go back inside the app first, close only when there is no history
+        // Back button and back gesture: ask the app to go one step back first
+        // (close an anime page, filter screen, news card, window, or return to Discover).
+        // The app answers "true" if it handled the press; otherwise there is nothing
+        // left to close, so the activity finishes and the app exits.
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                if (webView.canGoBack()) webView.goBack() else finish()
+                webView.evaluateJavascript(
+                    "(function(){try{return window.minamoBack?window.minamoBack()===true:false}catch(e){return false}})()"
+                ) { handled ->
+                    if (handled != "true") finish()
+                }
             }
         })
     }
