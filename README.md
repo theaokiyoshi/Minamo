@@ -17,7 +17,7 @@ Find what to watch, see what airs today, and keep track of everything you watch.
 
 ## Install
 
-**Android:** download the latest `Minamo-V1.0.apk` from the [Releases](https://github.com/theaokiyoshi/Minamo/releases) page, open it and allow the install when Android asks.
+**Android:** download the latest `Minamo.apk` from the [Releases](https://github.com/theaokiyoshi/Minamo/releases) page, open it and allow the install when Android asks.
 
 **Any device:** open the link above in your browser. You can add it to your home screen from the browser menu.
 
