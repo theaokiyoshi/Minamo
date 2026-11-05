@@ -10,7 +10,7 @@ Find what to watch, see what airs today, and keep track of everything you watch.
 - **Discover**: trending, popular, new and upcoming anime
 - **Schedule**: a monthly calendar of what airs each day
 - **Search**: 134 tags and detailed filters (genres, format, status, season, year, rating and more)
-- **Bookmarks**: Watching, Planning, Completed, On hold and Dropped, with episode tracking and notes
+- **Library**: Watching, Planning, Completed, On hold and Dropped, with episode tracking and notes
 - **Details**: synopsis, rating, episodes, characters, staff, related anime and where to watch
 - **Your style**: four themes, accent colours, four fonts and three corner styles
 - **Backup**: export and import your lists and settings
