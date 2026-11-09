@@ -64,6 +64,11 @@ class MainActivity : ComponentActivity() {
 
             webViewClient = WebViewClient()
 
+            // NEW in V1.0.2: lets the page save its backup file into Downloads.
+            // The name "MinamoApp" must stay exactly like this: the page looks for it.
+            // Keep this line BEFORE loadUrl below.
+            addJavascriptInterface(MinamoBridge(this@MainActivity), "MinamoApp")
+
             // Handles system popups, file choosers, and JS dialogs
             webChromeClient = object : WebChromeClient() {
                 override fun onShowFileChooser(
