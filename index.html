@@ -438,7 +438,7 @@ html.noanim .dots i{animation:dot 1s infinite ease-in-out!important}html.noanim 
 <div id="detail"><div class="dtop"><div class="tbar"><div class="btn" id="dback"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></div><div class="title"><span id="dtitle"></span></div></div></div><div id="dbody"></div></div>
 <script>
 
-const APP_VERSION="1.0.1";try{localStorage.removeItem('ad')}catch(e){}
+const APP_VERSION="1.0.2";try{localStorage.removeItem('ad')}catch(e){}
 var F='fragment F on Media{id title{romaji english native}coverImage{large color}averageScore episodes format isAdult genres tags{name rank}nextAiringEpisode{airingAt}}';
 var HOME=F+'query{t:Page(perPage:18){media(type:ANIME,isAdult:false,sort:TRENDING_DESC){...F}}p:Page(perPage:18){media(type:ANIME,isAdult:false,sort:POPULARITY_DESC){...F}}n:Page(perPage:18){media(type:ANIME,isAdult:false,status:RELEASING,sort:START_DATE_DESC){...F}}u:Page(perPage:18){media(type:ANIME,isAdult:false,status:NOT_YET_RELEASED,sort:POPULARITY_DESC){...F}}}';
 var SQ=F+'query($s:String,$g:[String],$xg:[String],$t:[String],$so:[MediaSource],$mr:Int,$f:[MediaFormat],$st:MediaStatus,$se:MediaSeason,$y:Int,$o:[MediaSort],$sc:Int,$e1:Int,$e2:Int,$c:CountryCode,$ds:FuzzyDateInt,$de:FuzzyDateInt,$p:Int){Page(page:$p,perPage:24){pageInfo{hasNextPage total}media(type:ANIME,search:$s,genre_in:$g,genre_not_in:$xg,tag_in:$t,source_in:$so,minimumTagRank:$mr,format_in:$f,status:$st,season:$se,seasonYear:$y,sort:$o,averageScore_greater:$sc,episodes_greater:$e1,episodes_lesser:$e2,countryOfOrigin:$c,startDate_greater:$ds,startDate_lesser:$de,isAdult:false){...F}}}';
